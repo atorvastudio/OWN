@@ -125,8 +125,16 @@ var navSliderOptions = {
 var navSlider = new Swiper(navSliderSelector, navSliderOptions);
 
 // Matching sliders
-mainSlider.controller.control = navSlider;
-navSlider.controller.control = mainSlider;
+//mainSlider.controller.control = navSlider;
+//navSlider.controller.control = mainSlider;
 
 
 // END SLIDER
+
+
+
+// magnific-popup
+
+$(document).ready(function() {
+  $('.portfolio-image').magnificPopup({delegate: 'a', type:'image',gallery:{enabled:true}});
+});
