@@ -312,10 +312,10 @@ body {
 .header {
   margin-top: 31px; }
   @media only screen and (max-width: 991px) {
-    .header .outer-menu .hamburger {
+    .header .outer-menu .checkbox-toggle, .header .outer-menu .hamburger {
       top: -45px;
-      left: -webkit-calc(50% - 30px);
-      left: calc(50% - 30px); } }
+      left: -webkit-calc(50% - 45px);
+      left: calc(50% - 45px); } }
   .header-top {
     margin-bottom: 30px; }
     @media only screen and (max-width: 1499px) {
@@ -474,7 +474,7 @@ body {
           -webkit-align-items: center;
               -ms-flex-align: center;
                   align-items: center;
-          padding-left: 50px; } }
+          padding-left: 25px; } }
       .header-bottom .menu-bottom ul li {
         list-style: none;
         margin-right: 50px;
@@ -1128,7 +1128,8 @@ body {
     padding-bottom: 70px; }
     @media only screen and (max-width: 1559px) {
       .section .section-contact {
-        margin-bottom: 20px; } }
+        margin-bottom: 20px;
+        padding-left: 45px; } }
     @media only screen and (max-width: 479px) {
       .section .section-contact {
         padding-top: 30px;
@@ -1197,15 +1198,17 @@ body {
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 20px; }
-  @media only screen and (max-width: 1099px) {
-    .footer .footer-menu ul {
-      padding-left: 0px; } }
-  .footer .footer-menu ul li {
-    list-style: none; }
-    .footer .footer-menu ul li a {
-      padding-top: 8px;
-      padding-bottom: 9px;
-      display: block; }
+  .footer .footer-menu ul {
+    padding-left: 0px; }
+    @media only screen and (max-width: 1099px) {
+      .footer .footer-menu ul {
+        padding-left: 0px; } }
+    .footer .footer-menu ul li {
+      list-style: none; }
+      .footer .footer-menu ul li a {
+        padding-top: 8px;
+        padding-bottom: 9px;
+        display: block; }
 
 .footer p {
   font-family: "HelveticaNeueCyr1";
